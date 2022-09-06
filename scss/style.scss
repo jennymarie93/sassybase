@@ -1,7 +1,46 @@
-$color-background: rgb(215, 197, 200);
+/* GLOBAL RESETS */
+* { box-sizing: border-box; }
 
+// VARIABLES
+$color-background: rgb(240, 231, 233);
+$color-text-body: rgba( 0, 0, 0,.75);
+$type-base: arboria, sans-serif;
+$type-heading: dejanire-headline, serif;
+$type-subheading: basic-sans, sans-serif;
+$type-linewidth: 37em;
+
+//COLORS
+$type-color: rgba(0,0,0,.8);
+$type-color-lightgrey: rgba(0, 0, 0, 0.5);
+$type-color-links: rgb(228, 147, 172);
+$type-color-linksdark: rgb(92, 57, 69);
+$accent-color: rgb(198, 83, 106);
+
+//Imports
 @import "partials/toc";
+@import "partials/typography";
+@import "partials/buttons"; 
 
-body {
-    background: $color-background;
-}
+// <-- ADOBE FONTS -->
+
+// ITC Avant Garde Gothic Pro Medium
+//     font-family: itc-avant-garde-gothic-pro, sans-serif;
+//     font-weight: 500;
+//     font-style: normal;
+
+// Dejanire Headline Medium
+//     font-family: dejanire-headline, serif;
+//     font-weight: 500;
+//     font-style: normal;
+
+// Arboria Book
+//     font-family: arboria, sans-serif;
+//     font-weight: 400;
+//     font-style: normal;
+
+// Basic Sans ExtraLight It
+//     font-family: basic-sans, sans-serif;
+//     font-weight: 200;
+//     font-style: italic;
+    
+       

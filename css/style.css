@@ -1,10 +1,136 @@
+/* GLOBAL RESETS */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 /* ---------------------- 
 
 CSS TABLE OF CONTENTS
 # TYPOGRAPHY
+    # BODY
+    # HEADINGS
+    # LINKS
 # COMPONENTS
+    # BUTTONS
 
 ------------------------- */
+/* TYPOGRAPHY */
 body {
-  background: rgb(215, 197, 200);
+  font-family: arboria, sans-serif;
+  font-size: 100%;
+  /* 16px */
+  line-height: 1.3;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: dejanire-headline, serif;
+  margin: 0.5em 0;
+  max-width: 37em;
+}
+
+/* Traditional typographic scale
+    48, 36, 24, 21, 18, 16 */
+h1 {
+  font-size: 3em;
+  line-height: 1em;
+}
+
+/* 48 / 16 = 3em */
+h2 {
+  font-size: 2.25em;
+  line-height: 1.1em;
+}
+
+/* 36 / 16 = 2.25em */
+h3 {
+  font-size: 1.5em;
+  line-height: 1.2em;
+}
+
+/* 24 / 16 = 1.5em */
+h4 {
+  font-size: 1.31em;
+  line-height: 1.3em;
+}
+
+/* 21 / 16 = 1.31em */
+h5 {
+  font-size: 1.13em;
+  line-height: 1.4em;
+}
+
+/* 18 / 16 = 1.13em */
+h6 {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+/* 16 / 16 = 1em */
+p {
+  margin: 0 0 0.5em 0;
+  max-width: 37em;
+}
+
+/* Horizontal Rule */
+hr {
+  border: 0;
+  height: 1px;
+  margin: 3em 0;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/* HELPERS */
+.headline {
+  font-size: 4em;
+  color: rgb(198, 83, 106);
+  margin: 0;
+}
+
+.subheadline {
+  font-family: basic-sans, sans-serif;
+  font-size: 2.5em;
+  font-weight: 200;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0.25em 0 0.5em 0;
+}
+
+/* BUTTONS */
+button {
+  font-size: inherit;
+}
+
+button,
+a.button {
+  display: inline-block;
+  background-color: rgb(228, 147, 172);
+  border: 1px solid rgb(228, 147, 172);
+  color: #fff;
+  padding: 0.75em 1em;
+  border-radius: 0.75em;
+  margin: 0.5em 0;
+  border: none;
+  cursor: pointer;
+  line-height: 1em;
+  text-decoration: none;
+  font-family: arboria, sans-serif;
+}
+
+button.alt,
+a.button.alt {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid rgb(228, 147, 172);
+  color: rgb(228, 147, 172);
+}
+
+button:hover,
+a.button:hover {
+  background-color: rgb(92, 57, 69);
+  color: #fff;
+  border-color: rgb(92, 57, 69);
+  text-decoration: none;
+  border-radius: 1em;
+  font-style: italic;
 }
