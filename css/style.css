@@ -26,7 +26,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: dejanire-headline, serif;
-  margin: 0.5em 0;
+  margin: 0 0 0.5em 0;
   max-width: 37em;
 }
 
@@ -133,4 +133,39 @@ a.button:hover {
   text-decoration: none;
   border-radius: 1em;
   font-style: italic;
+}
+
+/* RESPONSIVE IMAGES */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* RESET BODY */
+body {
+  margin: 0;
+}
+
+/* CONTAINER */
+.container {
+  background: pink;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* MEDIA QUERIES */
+/* RESPONSIVE TYPOGRAPHY */
+body {
+  font-size: 87.5%;
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 100%;
+  }
+}
+@media (min-width: 1250px) {
+  body {
+    font-size: 112.5%;
+  }
 }

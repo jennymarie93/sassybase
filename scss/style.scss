@@ -16,10 +16,17 @@ $type-color-links: rgb(228, 147, 172);
 $type-color-linksdark: rgb(92, 57, 69);
 $accent-color: rgb(198, 83, 106);
 
-//Imports
+//BREAKPOINTS
+$breakpoint-small: 768px;
+$breakpoint-medium: 1050px;
+$breakpoint-large: 1250px;
+
+//IMPORTS
 @import "partials/toc";
 @import "partials/typography";
 @import "partials/buttons"; 
+@import "partials/media";
+@import "partials/layout";
 
 // <-- ADOBE FONTS -->
 
