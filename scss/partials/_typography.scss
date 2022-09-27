@@ -52,3 +52,19 @@ hr {
     color: $type-color-lightgrey;
     margin: 0.25em 0 0.5em 0;
 }
+
+/* SECTION HEADING */
+
+.section-heading {
+    color: $type-color-lightgrey;
+    font-size: 2em;
+    font-family: $type-heading;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-bottom: 1px solid $accent-color-lines;
+    display: table;
+    margin: 0 auto 2em auto;
+    padding-top: 0;
+    padding-bottom: .25em;
+}

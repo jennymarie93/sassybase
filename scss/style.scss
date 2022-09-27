@@ -15,6 +15,9 @@ $type-color-lightgrey: rgba(0, 0, 0, 0.5);
 $type-color-links: rgb(228, 147, 172);
 $type-color-linksdark: rgb(92, 57, 69);
 $accent-color: rgb(198, 83, 106);
+$accent-color-lines: rgb(255, 201, 212);
+$accent-color-light: rgba(237, 229, 229, 0.445);
+
 
 //BREAKPOINTS
 $breakpoint-small: 768px;
@@ -28,6 +31,8 @@ $breakpoint-large: 1250px;
 @import "partials/media";
 @import "partials/layout";
 @import "partials/grid";
+@import "partials/structure";
+
 
 // <-- ADOBE FONTS -->
 

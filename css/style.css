@@ -21,6 +21,12 @@ CSS TABLE OF CONTENTS
     # CONTAINER
     # MEDIA QUERIES
     # SEMANTIC GRIDS
+# STRUCTURE
+    # SITE HEADER
+    # SITE NAV
+    # MAIN
+        #SECTIONS
+    # SITE FOOTER
 
 ------------------------- */
 /* TYPOGRAPHY */
@@ -103,6 +109,21 @@ hr {
   font-style: italic;
   color: rgba(0, 0, 0, 0.5);
   margin: 0.25em 0 0.5em 0;
+}
+
+/* SECTION HEADING */
+.section-heading {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 2em;
+  font-family: dejanire-headline, serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  border-bottom: 1px solid rgb(255, 201, 212);
+  display: table;
+  margin: 0 auto 2em auto;
+  padding-top: 0;
+  padding-bottom: 0.25em;
 }
 
 /* BUTTONS */
@@ -280,4 +301,85 @@ body {
   background-color: rgb(92, 57, 69);
   color: white;
   padding: 1%;
+}
+
+/* SITE STRUCTURE */
+/* SITE HEADER */
+.site-header {
+  background: rgb(92, 57, 69);
+  color: white;
+  padding: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.site-header a {
+  color: white;
+  text-decoration: none;
+}
+.site-header h1 {
+  font-size: 1.05em;
+  font-family: dejanire-headline, serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin: 0;
+}
+
+/* SITE FOOTER */
+.site-footer {
+  background: rgb(92, 57, 69);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.site-footer a {
+  color: white;
+  text-decoration: none;
+}
+
+/* SITE-NAV */
+.site-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.site-nav a {
+  display: inline-block;
+  padding: 0.75em;
+  line-height: 1;
+}
+
+section {
+  padding: 4em 0;
+}
+
+/* HERO SECTION */
+.hero {
+  background: rgba(237, 229, 229, 0.445);
+  text-align: center;
+}
+.hero h1 {
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  color: dejanire-headline, serif;
+  font-size: 3.5em;
+}
+.hero p {
+  margin-bottom: 1em;
+  font-size: 1.75em;
+}
+.hero .button {
+  margin-bottom: 4em;
 }

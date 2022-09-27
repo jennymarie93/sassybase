@@ -1,0 +1,80 @@
+/* SITE STRUCTURE */
+
+/* SITE HEADER */
+
+.site-header{
+    background: $type-color-linksdark;
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    h1 {
+        font-size: 1.05em;
+        font-family: $type-heading;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        margin: 0;
+    }
+} 
+
+/* SITE FOOTER */
+
+.site-footer {
+    background: $type-color-linksdark;
+    display: flex;
+    justify-content: center;
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    
+}
+
+/* SITE-NAV */
+
+.site-nav {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+    }
+    a {
+        display: inline-block;
+        padding: .75em;
+        line-height: 1;
+    }
+}
+
+section {
+    padding: 4em 0;
+}
+
+/* HERO SECTION */
+
+.hero {
+    background: $accent-color-light;
+    text-align: center;
+
+    h1 {
+    margin-top: 2em;
+    margin-bottom: .5em;
+    color: $type-heading;
+    font-size: 3.5em;
+    }
+    p {
+        margin-bottom: 1em;
+        font-size: 1.75em;
+    }
+    .button {
+        margin-bottom: 4em;
+    }
+}
